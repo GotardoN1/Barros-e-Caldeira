@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato - Barros & Caldeira</title>
+  <meta name="description" content="Entre em contato com o Barros & Caldeira para discutir seu caso." />
+  <meta property="og:title" content="Contato - Barros & Caldeira" />
+  <meta property="og:description" content="Formulário de contato para cálculos e consultoria jurídica." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#244346" />
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23244346'/><text x='50' y='58' font-size='58' text-anchor='middle' fill='%23c7bbb5' font-family='Georgia, serif'>BC</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ======= HEADER ======= -->
+  <header class="topbar">
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html#home" class="brand" aria-label="Página inicial">
+          <img src="LogotipocomNome.png" alt="Barros & Caldeira" style="height: 44px; width: auto;">
+        </a>
+        <div class="nav" id="main-nav">
+          <a href="index.html#sobre">Sobre</a>
+          <a href="index.html#servicos">Serviços</a>
+          <a href="equipe.html">Equipe</a>
+          <a href="contato.html">Contato</a>
+        </div>
+        <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+      </nav>
+      <!-- Menu mobile -->
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="index.html#sobre" class="mobile-menu-item">Sobre</a>
+        <a href="index.html#servicos" class="mobile-menu-item">Serviços</a>
+        <a href="equipe.html" class="mobile-menu-item">Equipe</a>
+        <a href="contato.html" class="mobile-menu-item">Contato</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <!-- ======= MAIN CONTENT ======= -->
+  <section class="hero-page">
+    <div class="container">
+      <div class="hero-page-content">
+        <h1>Contato</h1>
+        <p>Entre em contato conosco para discutir seu caso e receber uma proposta personalizada.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CONTATO ======= -->
+  <section id="contato" class="section">
+    <div class="container">
+       <div class="contact-form">
+          <h3>Envie sua mensagem</h3>
+          <form class="form">
+            <div class="form-group">
+              <label for="nome">Nome completo *</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone">
+            </div>
+            
+            <div class="form-group">
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Selecione o tipo de cálculo</option>
+                <option value="precatorios">Atualização de precatórios</option>
+                <option value="contratuais">Cálculos contratuais</option>
+                <option value="pensoes">Cálculo de pensões</option>
+                <option value="imobiliarios">Cálculos imobiliários</option>
+                <option value="revisionais">Revisionais</option>
+                <option value="duvidas">Dúvidas gerais</option>
+                <option value="outros">Outros</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="mensagem">Mensagem *</label>
+              <textarea id="mensagem" name="mensagem" rows="6" placeholder="Descreva brevemente seu caso ou dúvida..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-full">Enviar mensagem</button>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  </div>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="brand">
+            <img src="LogotipocomNome.png" alt="Barros & Caldeira" style="height: 44px; width: auto;">
+          </div>
+          <p class="footer-description">Escritório especializado em cálculos cíveis e consultoria jurídica, oferecendo precisão técnica e transparência em cada projeto.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-section">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="index.html#sobre">Sobre</a></li>
+              <li><a href="index.html#servicos">Serviços</a></li>
+              <li><a href="index.html#atuacao">Como atuamos</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-section">
+            <h4>Serviços principais</h4>
+            <ul>
+              <li>Atualização de precatórios</li>
+              <li>Cálculos contratuais</li>
+              <li>Cálculo de pensões</li>
+              <li>Revisionais</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2024 Barros & Caldeira. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Inicializar menu mobile
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuBtn = document.getElementById('menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener('click', function() {
+          menuBtn.classList.toggle('active');
+          mobileMenu.classList.toggle('active');
+        });
+
+        // Fecha o menu ao clicar em um item
+        const mobileMenuItems = document.querySelectorAll('.mobile-menu-item');
+        mobileMenuItems.forEach(item => {
+          item.addEventListener('click', function() {
+            menuBtn.classList.remove('active');
+            mobileMenu.classList.remove('active');
+          });
+        });
+
+        // Fecha o menu ao clicar fora dele
+        document.addEventListener('click', function(event) {
+          if (!menuBtn.contains(event.target) && !mobileMenu.contains(event.target)) {
+            menuBtn.classList.remove('active');
+            mobileMenu.classList.remove('active');
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
+
